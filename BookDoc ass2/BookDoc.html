@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>BookDoc-Home Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="asset/BookDoc.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<style>
+
+.mySlides {display:none;}
+
+</style> 
+</head>
+  <body>
+        <div class="nav">
+
+    
+            <a href="BookDoc.html" >
+           <img src="image/bookdoc.logo.jpg" alt="logo" style="height: 100px;width: 169px;margin-bottom: -124px;margin-left: -566px;">
+            </a>
+        <ul>    
+            <li><a href="aboutus.html"> About Us</a> </li>
+            <li><a href="servicespage.html">Services</a></li>
+            <li><a href="rewardpage.html">Rewards</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="Login.html">Login</a></li>
+        </ul>
+        </div> 
+  
+     	<div class="content">
+     	<div class="container-wrapper"> 
+        <img class="mySlides" src="image/covid-19.png" alt="slideshow1" >
+     		<img class="mySlides" src="image/hqdefault.jpg" alt="slideshow2">
+     		<img class="mySlides" src="image/prevention.png" alt="slideshow3" >
+        </div>
+        <div class="video">
+        	<h2 class="text">Bookdoc Activ</h2>
+        	<div class="content"> Get Rewarded for Staying Activ</div>
+
+        	<video width="500" height="450" controls autoplay>
+        		<source src="video/bookdoc.mp4" type="video/mp4">
+        	</video>
+        </div>
+        <div class="topic-power">
+        	<h2 class="title">The power of walking </h2>
+        		<div class="contents"> 
+        			<div class="foot">
+        			<img src="image/foot.jpg" alt="foot">
+        			<h2 class="text">9213 steps</h2>
+        			</div>
+        			<div class="global">
+        			<img src="image/global.png" alt="global">
+        			<h2 class="text">172416 Time</h2>
+        			</div>
+        			<div class="cal">
+        			<img src="image/cal.png" alt="cal">
+        			<h2 class="text">405 Billion Calories</h2>
+        			</div>
+        			<div class="burn">
+        			<img src="image/burn.png" alt="burn">
+        			<h2 class="text">720.0 Million Mac</h2>
+
+        		</div>
+        	</div>
+        </div>	
+		 <div class="apps">
+		 		<h2 class="title">Compatible Devices and Apps</h2>
+		 		<div class="contents">
+
+		 			<div class="samsung">
+    		 			<a href="https://play.google.com/store/apps/details?id=com.sec.android.app.shealth&hl=en" target="_blank">
+    		 			<img src="image/samsung.png" alt="samsung">
+    		 			<h2 class="text">Samsung Health</h2></a>
+		 			</div>
+
+		 			<div class="mifi">
+		 			<a href="https://play.google.com/store/apps/details?id=com.xiaomi.hm.health&hl=en" target="_blank">
+		 			<img src="image/mifi.png" alt="Mi Fi">
+		 			<h2 class="text">Mi Fi </h2></a>
+		 			</div>
+
+		 			<div class="fit">
+		 			<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.fitness&hl=en" target="_blank"> 
+		 			<img src="image/Google-Fit.png" alt="google fit">
+		 			<h2 class="text">Google Fit</h2></a>
+		 			</div>
+
+		 			<div class="apple">
+		 			<a href="https://www.apple.com/my/ios/health/#:~:text=A%20more%20personal%20Health%20app.&text=The%20new%20Health%20app%20consolidates,wide%20range%20of%20health%20metrics." target="_blank"> 
+		 			<img src="image/apple.png" alt="apple Health">
+		 			<h2 class="text">Apple Health</h2></a>
+		 			</div>
+
+		 			<div class="fitbit">
+		 			<a href="https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile&hl=en" target="_blank"> 
+		 			<img src="image/fitbit.png" alt="fitbit">
+		 			<h2 class="text">Fitbit</h2></a>
+		 			</div>
+		 </div>
+		</div>
+    </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+        <footer>
+        <div class="footer">
+        
+        <div class="subfooter">
+        <ul>
+            <li><br><a href="contactus.html">Contact Us</a></li>
+            <li><a>1300-88-1234</a> </li>
+            <li><a>care@bookdoc.com </a></li>
+        </ul>
+        </div>
+            <a>BookDoc</a>
+        <div class="subfooter2">
+            
+            <ul>
+            
+            <li><a href="aboutus.html"> About Us</a> </li>
+            <li><a href="servicespage.html">Services</a></li>
+            <li><a href="rewardpage.html">Rewards</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="loginpage.html">Login</a></li>
+
+            </ul>
+
+        </div>
+
+        <a>Follow Us</a>
+        <div class="subfooter3">
+            
+            <ul>
+                <li><img src="image/InstargramIcon.png" alt="Icon1" ><a href="https://www.instagram.com/?hl=en">Instargram</a></li>
+                <li><img src="image/FacebookIcon.png" alt="Icon2" ><a href="https://en-gb.facebook.com/">Facebook</a></li>
+                <li><img src="image/TwitterIcon.png" alt="Icon3" ><a href="https://twitter.com/explore">Twitter</a></li>
+                <li><img src="image/SnapchatIcon.webp" alt="Icon4" ><a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome">Twitter</a></li>
+            </ul>
+    
+        </div>
+
+    </div>  
+
+  </footer>
+</body>
+
+</html>

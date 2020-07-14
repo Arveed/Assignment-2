@@ -1,0 +1,754 @@
+
+
+/* navigation bar*/
+.nav {
+    list-style-type: none;
+    margin: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 78px;
+  }
+.nav image{height: 400px;
+            width: 200px;}
+
+.nav li {
+    font-family: 'Roboto', sans-serif;
+    width: 180px;
+    border-bottom: none;
+    height: 106px;
+    line-height: 106px;
+    font-size: 14px;
+    display: inline-block; 
+    margin: 0 auto;
+}
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    background-color: aliceblue;
+    color: red; 
+}
+.nav a:hover {
+    background-color: aliceblue;
+    color: black;
+
+}   
+ /* footer */ 
+
+#lgnpheader{
+    width: 100%;
+    background-color: salmon;
+    font-size: xx-large;
+    text-align: center ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:white;
+    font-weight: bold;
+}
+
+#form{
+    border-right-style: ridge;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-color: salmon;
+    border-right-width: 15px;
+    border-left-width: 5px;
+    border-bottom-width: 5px;
+    padding-right:5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#form .submit1{
+    text-align: left;
+    padding-left: 476px;
+   
+}
+
+#form .submit1 button{
+    height:30px ;
+    width: 100px;
+}
+
+#form .rmbme{
+    text-align: left;
+    padding-left: 476px;
+}
+
+.mailbox{
+    text-align: center;
+}
+
+.mailbox label{
+    font-weight: bold;
+    font-size: x-large;
+  
+}
+
+.psbox{
+    text-align: center;
+}
+
+.psbox label{
+    font-weight: bold;
+    font-size: x-large;
+  
+}
+
+.forgotps {
+    text-align: right;
+    padding-right: 476px ;
+}
+
+.forgotps a{
+    text-decoration: none;
+    color: red;
+}
+
+.mailbox input {
+    width: 500px;
+    height: 40px;
+   
+}
+
+.psbox input{
+    width: 500px;
+    height: 40px;
+ 
+}
+
+.tNc{
+    text-align: center;
+}
+
+.tNc a{
+    text-decoration: none;
+    color: red;
+}
+
+#form1 {
+    border-right-style: ridge;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-color: salmon;
+    border-right-width: 15px;
+    border-left-width: 5px;
+    border-bottom-width: 5px;
+    padding-right:5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#rstpheader{
+    width: 100%;
+    background-color: salmon;
+    font-size: xx-large;
+    text-align: center ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:white;
+    font-weight: bold;
+}
+
+#form1 p{
+    text-align: center;
+
+}
+
+#form1 .submit2{
+    text-align:  center;
+    padding-right: 0px;
+    
+}
+
+#TnCheader{
+    padding-left: 10%;
+    font-weight: bold;
+}
+
+.TnChdct p{
+    padding-left: 10%;
+    padding-right: 10% ;
+    text-align: justify ;
+}
+
+#tnccontent ol{
+    
+    counter-reset: item;
+    padding-left: 10px;
+ 
+}
+
+#tnccontent li{
+    display: block;
+    font-weight: bold;
+
+}
+
+
+
+#tnccontent li::before{
+    content: counters(item, ".") ". ";
+    counter-increment: item
+}
+
+#tnccontent li2{
+    display: block;
+    font-weight: bold;
+
+}
+
+#tnccontent li2::before{
+
+    content: counters(item, ".") " ";
+    counter-increment: item
+}
+
+
+#tnccontent {
+    padding-left: 10%;
+    padding-right: 10% ;
+    text-align: justify ;
+}
+
+
+#PPheader{
+    width: 100%;
+    background-color: salmon;
+    font-size: xx-large;
+    text-align: center ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:white;
+    font-weight: bold;
+}
+
+.PPcontent ul li{
+    list-style-type: disc;
+}
+
+.footer{
+    background-color: darksalmon
+}
+
+.subfooter{
+    background-color: brown;
+    text-align: center;
+}
+
+.subfooter li{
+    list-style-type: none;
+  
+    font-family: sans-serif;
+    display: inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+}
+
+.subfooter a{
+    text-decoration: none;
+    text-align: center;
+    color: honeydew;
+    
+}
+
+.subfooter2{
+    background-color: darksalmon;
+    width: 100%;
+    
+}
+
+.subfooter2 li{
+                list-style-type: none;
+
+                font-family: sans-serif;
+                display:block}
+
+.subfooter2 a{
+    text-decoration: none;
+    color: honeydew;
+    margin-left: 10px;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    font-weight: bolder ;
+    font-size: larger;
+    color: honeydew;
+    padding-bottom: 50px;
+    padding-left: 35px;  }
+
+.subfooter3{ background-color: darksalmon;}
+
+.subfooter3 li{list-style-type: none;
+                display: block;}
+
+.subfooter3 li img{
+    height: 20px;
+    width: 20px;}
+
+.subfooter3 a{
+    text-decoration: none;
+    font-weight: bolder ;
+    font-size: larger;
+    color: honeydew;
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+
+ /* home page */
+
+.content {margin-left:226px;
+            margin-right: 254px;}
+
+.container-wrapper img {
+                        height: 357px;
+                        width: 1022px;}
+
+.video .text {text-align: center;
+                color:  #FF0000;
+               font-size: 45px;  }
+.video .content {font-size: 15px;
+                text-align: center;}
+.video video{margin-left: 270px;
+            margin-top: -83px;}
+
+            /* topic power */ 
+.topic-power { height: 215px;}
+
+.topic-power .title{text-align: center;}
+            /* foot */
+.topic-power .contents .foot{margin-right: 793px;
+                                margin-left: 95px;}
+
+.topic-power .contents .foot img{height: 100px;
+                                    width: 100px;}
+.topic-power .contents .foot .text {font-size: 15px;}
+            
+            /*global */ 
+.topic-power .contents .global{margin-right: 583px;
+                                margin-left: 302px;
+                                margin-top: -145px;}
+
+.topic-power .contents .global img{height: 100px;
+                                    width: 100px;}
+.topic-power .contents .global .text {font-size: 15px;}
+
+            /*cal */
+.topic-power .contents .cal{margin-right: 345px;
+                                margin-left: 537px;
+                                margin-top: -145px;}
+
+.topic-power .contents .cal img{height: 100px;
+                                    width: 100px;}
+.topic-power .contents .cal .text {font-size: 15px;}
+            
+            /* burn */ 
+.topic-power .contents .burn{margin-right: 111px;
+                                margin-left: 782px;
+                                margin-top: -145px;}
+
+.topic-power .contents .burn img{height: 100px;
+                                    width: 100px;}
+.topic-power .contents .burn .text {font-size: 15px;}
+
+/* APPS */
+.apps { height: 215px;}
+
+.apps .title{text-align: center;}
+
+        /* samsung*/
+.apps .contents .samsung{margin-right: 793px;
+                                margin-left: 95px;}
+
+.apps .contents .samsung img{height: 100px;
+                                    width: 100px;}
+.apps .contents .samsung .text {font-size: 15px;}
+
+        /*Mi Fi */
+.apps .contents .mifi{margin-right: 634px;
+                        margin-left: 287px;
+                        margin-top: -146px;}
+
+.apps .contents .mifi img{height: 100px;
+                         width: 100px;}
+.apps .contents .mifi .text {font-size: 15px;
+                            text-align: center;}
+                            
+            /*google fit  */
+.apps .contents .fit{margin-right: 433px;
+                        margin-left: 478px;
+                        margin-top: -146px;}
+
+.apps .contents .fit img{height: 100px;
+                         width: 100px;}
+.apps .contents .fit .text {font-size: 15px;
+                            text-align: center;}
+            /*apple */ 
+.apps .contents .apple{margin-right: 249px;
+                        margin-left: 674px;
+                        margin-top: -146px;}
+
+.apps .contents .apple img{height: 100px;
+                         width: 100px;}
+.apps .contents .apple .text {font-size: 15px;
+                            text-align: center;}
+            /*fitbit */ 
+.apps .contents .fitbit{margin-right: 55px;
+                        margin-left: 867px;
+                        margin-top: -146px;}
+
+.apps .contents .fitbit img{height: 100px;
+                         width: 100px;}
+.apps .contents .fitbit .text {font-size: 15px;
+                            text-align: center;}
+
+
+/* what is */
+.what-is { margin-left: 308px;
+           margin-right: 305px; }
+
+.what-is .title {background-color:#FF0000;
+                margin-top: 2px;
+                margin-left: 307px;
+                color: #ffffff;
+                font-size: 30px;
+                text-align: center;}
+
+.what-is .content-what p {border:1px solid black;
+                    margin-left: 307px;
+                    margin-right: 0px;
+                    padding: 72px 72px;
+                    background-color:#FA8072;
+                    margin-top: -25px;
+                    font-size: 23px;}
+
+
+.what-is img{margin-right: 577px;
+            margin-left: 21px;
+            margin-top: -557px;}
+
+
+/* how to work content */
+.how-to {margin-left: 225px;
+            margin-right: 242px;
+            height: 250px;}
+
+
+
+.how-to .content-how {margin-left: 0px;
+                    margin-right: -2px;
+            }
+
+.how-to .content-how .title{background-color:#C0C0C0; 
+                        margin-top: 2px;
+                        margin-right: 10px;
+                        color:  #ffffff;
+                        font-size: 30px;
+                        text-align: center; }
+.how-to .content-how .contents-how{text-align: center;}
+
+
+        /* step 1 */
+.how-to .content-how .contents-how .step1{  margin-left: 13px;
+                                    margin-right: 801px;
+                                    height:167px;
+                                    padding: 13px 15px; }
+
+.how-to .content-how .contents-how .step1 .text{text-align: center;}              
+
+.how-to .content-how .contents-how img{width: 100px;
+                                        height: 100px;
+                                        margin-left: 23px;}
+
+        /* step 2*/
+.how-to .content-how .contents-how .step2{  margin-left:234px;
+                                    margin-right: 573px;
+                                    height:167px;
+                                    padding: 13px 15px;
+                                    margin-top: -193px;
+                                     }
+.how-to .content-how .contents-how .step2 .text{text-align: center;}    
+
+
+        /* step 3*/
+.how-to .content-how .contents-how .step3 { margin-left:460px;
+                                    margin-right: 280px;
+                                    height:167px;
+                                    padding: 13px 15px;
+                                    margin-top: -193px;
+                                     }
+.how-to .content-how .contents-how .step3 .text{text-align: center;}  
+
+        /* step 4*/
+.how-to .content-how .contents-how .step4 { margin-left:743px;
+                                    margin-right: 41px;
+                                    height:167px;
+                                    padding: 13px 15px;
+                                    margin-top: -193px;
+                                     }
+.how-to .content-how .contents-how .step4 .text{text-align: center;}  
+
+
+
+/* reward partner */
+.reward {margin-left: 0px;
+        margin-right: -19px;
+            }
+.reward .content {height: 205px;}
+
+
+.reward .title{background-color:#C0C0C0; 
+                margin-top: 2px;
+                margin-right: 10px;
+                color:  #ffffff;
+                font-size: 30px;
+                text-align: center; }
+.reward img{height: 100px;
+            width: 100px;
+            }  
+
+        /* reward partner 1 */  
+.reward .partner1 {margin-left: 13px;
+                    margin-right: 801px;
+                    height:167px;
+                    padding: 13px 15px; }
+
+.reward .partner1  .text{text-align: center;}   
+
+        /* reward partner 2*/   
+.reward .partner2 {margin-left: 205px;
+                    margin-right: 593px;
+                    height:167px;
+                    padding: 13px 15px; 
+                    margin-top: -190px;}
+
+.reward .partner2 .text{text-align: center;}   
+
+        /*reward partner 3*/
+.reward .partner3 {margin-left: 435px;
+                    margin-right: 385px;
+                    height:167px;
+                    padding: 13px 15px; 
+                    margin-top: -193px;}
+
+.reward .partner3 .text{text-align: center;}
+    
+        /* reward partner 4*/
+.reward .partner4 {margin-left: 629px;
+                    margin-right: 190px;
+                    height:167px;
+                    padding: 13px 15px; 
+                    margin-top: -193px;}
+
+.reward .partner4 .text{text-align: center;}
+        
+        /* reward partner 5*/
+.reward .partner5 {margin-left: 831px;
+                    margin-right: 7px;
+                    height:167px;
+                    padding: 13px 15px; 
+                    margin-top: -193px;}
+
+.reward .partner5 .text{text-align: center;}
+
+        /* contact us */ 
+.contact img {margin-left: 156px;
+                height: 500px;}
+
+.contact .title {background-color:#05c880;     
+                margin-right: 143px;
+                color:  #ffffff;
+                font-size: 30px;
+                text-align: center; 
+                margin-left: 156px;
+                margin-top: 30px;} 
+
+.contact .campus{border:1px solid black; 
+                background-color:#b5fde3;
+                padding: 123px 1px;
+                margin-left: 156px;
+                margin-right: 143px;
+                margin-top: 2px;}
+
+        /* Malaysia campus */                
+.contact .campus .each-malaysia {padding: 0px 888px 0px 28px;}
+
+
+.contact .campus .each-malaysia .countries {text-align: center;}
+.contact .campus .each-malaysia .countries .contentss p {border: 20px 100px;
+                                              margin-bottom: 95px;}
+
+
+        /* singapore campus*/ 
+.contact .campus .each-singapore {padding: 0px 609px 0px 314px;
+                                margin-top:-281px; }
+
+
+.contact .campus .each-singapore .countries {text-align: center;}
+.contact .campus .each-singapore .countries .contentss p{border: 20px 100px;
+                                                        margin-bottom: 95px;}
+
+        /*hong kong campus */
+
+.contact .campus .each-hong-kong {padding: 0px 332px 0px 597px;
+                                margin-top:-281px; }
+
+
+.contact .campus .each-hong-kong .countries {text-align: center;}
+.contact .campus .each-hong-kong .countries .contentss p{border: 20px 100px;
+                                                        margin-bottom: 95px;}
+
+            /* thailand campus*/ 
+.contact .campus .each-thailand {padding: 0px 0px 0px 888px;
+                                margin-top:-281px; }
+
+.contact .campus .each-thailand .countries {text-align: center;}
+.contact .campus .each-thailand .countries .contentss p{border: 20px 100px;
+                                                                margin-bottom: 95px;}
+
+                /* message us */
+.message {margin-top: 30px;}
+
+.message .title {background-color:#05c880;     
+                    margin-right: 750px;
+                    color: #ffffff;
+                    font-size: 30px;
+                    text-align: center; 
+                    margin-left: 156px;}
+
+
+.message .contentsss {border:1px solid black; 
+                     background-color:#b5fde3 ;
+                        padding: 123px 1px;
+                        margin-left: 156px;
+                     margin-right: 750px;
+                        margin-top: 2px;
+                        padding: 12px 15px;}
+    /* about us page */ 
+.aboutus {margin-left: 225px;
+            margin-right: 245px;}    
+
+.aboutus .title { line-height: 200%;
+                    background-color: lightgray;
+                    background-position: right;
+                    background-repeat: no-repeat;
+                    height:72px;
+                    margin-bottom: 0%;
+                    text-align: center;}
+.aboutus .Founder { border: black;
+                    text-align:center; }
+
+.aboutus .Co-Founder{ border: black;
+                    text-align:center; }
+
+.aboutus .ManagementTeam1{ border: black;
+                            text-align:center; }
+.aboutus .ManagementTeam2 { border: black;
+                            text-align:center; }
+
+.aboutus .ManagementTeam3 { border: black;
+                            text-align:center; }
+
+.vissionIcon img{
+    width: 100%;
+    margin-top: 16px;
+    text-align: center;
+    height: 236px;
+}
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+    align-content: center;
+    margin-left: 104px;
+    margin-top: -46px;
+}
+table,tr ,h3 {line-height: 150%;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 0%;
+    margin-left: 60px;
+    margin-top: 3px;}
+
+table, th, td{
+        padding: 5px;
+        border: 1px solid #3399cc;
+    }
+    td{
+        text-align: left;
+    }
+    table tr td.text{
+        text-align: left;
+    }
+
+    /* service page */ 
+#servheader{
+    width: 100%;
+    background-color: salmon;
+    font-size: xx-large;
+    text-align: center ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:black;
+    font-weight: bold;
+}
+.desc{
+    border-width: 8px;
+    border-style: hidden;
+    text-align: center;
+    font-weight: normal;
+    font-size: large;
+}
+
+.cservice{
+    text-align: center;
+    border-bottom: 4px;
+    border-style: solid;
+    border-color:salmon;
+}
+
+.hcare{
+    text-align: center;
+    border-bottom: 4px;
+    border-style: solid;
+    border-color:salmon;
+}
+
+.hspital{
+    text-align: center;
+    border-bottom: 4px;
+    border-style: solid;
+    border-color: salmon;
+}
+
+.coop{
+    text-align: center;
+    border-bottom: 4px;
+    border-style: solid;
+    border-color:salmon;
+}
+
+.gio{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-size: large;
+    
+}
+
+.gplay {
+    text-align: center;
+   
+}
+
+.astore{
+    text-align: right;
+ 
+}
+
+
+
+
+
